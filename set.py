@@ -1,0 +1,5 @@
+s = set()
+s.add("s")
+s.add("s")
+s.add("a")
+print(s)
