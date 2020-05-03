@@ -1,0 +1,18 @@
+<html>
+    <head>
+        <style>
+            div.container {
+                margin-top: 70px;
+                margin-left: 70px;
+            }
+        </style>
+        <title>My Webpage!</title>
+    </head>
+    <body>
+        <div class="container">
+            <h1>{% block heading %}{% endblock %}</h1>
+            {% block body %}
+            {% endblock %}
+        </div>
+    </body>
+</html>
